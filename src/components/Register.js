@@ -18,27 +18,32 @@ function Register(props) {
             <h1>Join </h1>
             {touched.firstName && errors.FirstName && <p className="error">{errors.FirstName}</p>}
             <Field type="text" 
-                    name="firstName"   
+                    name="firstName"
+                    className="Field"   
                     placeholder="First Name" />
 
             {touched.lastName && errors.lastName && <p className="error">{errors.lastName}</p>}
             <Field type="text" 
                     name="lastName" 
+                    className="Field"
                     placeholder="Last Name" />
 
             {touched.email && errors.email && <p className="error">{errors.email}</p>}
             <Field type="email" 
-                    name="email" 
+                    name="email"
+                    className="Field" 
                     placeholder="Email" />
 
             {touched.phone && errors.phone && <p className="error">{errors.phone}</p>}
             <Field type="text" 
                     name="phone" 
+                    className="Field"
                     placeholder="Cell Phone" />
 
             {touched.textConfirm && errors.textConfirm && <p className="error">{errors.textConfirm}</p>}
             <Field name="textConfirm" 
                     component="select" 
+                    className="Fields"
                     placeholder="Can you recieve text">
                     <option value="" disabled>Can you recieve text?</option> 
                     <option value="yes">Yes</option>

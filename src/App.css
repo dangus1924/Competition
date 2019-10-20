@@ -58,3 +58,19 @@ a:hover {
   bottom: 0;
   right: 0;
 }
+
+Form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Field {
+  height: 20px;  
+  width: 50%;
+  margin: 10px auto;
+}
+
+.Fields {  
+  width: 5%;
+  margin: auto;
+}
