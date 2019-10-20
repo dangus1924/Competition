@@ -25,5 +25,36 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: #738290;
+  margin: 15px;
+  border-radius: 12px;
 }
 
+a {
+ text-decoration: none;
+ margin: 15px; 
+ color: black;
+}
+
+a:hover {
+  color: white;
+
+}
+
+.GC {
+  border: solid 1.5px;
+  border-radius: 12px;
+  background-color: #fffcf7;
+}
+
+.footerBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #738290;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
